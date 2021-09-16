@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*,
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+    width: 100%;
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 72px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+     
+}
+
+.container-w {
+    max-width: 962px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-rigth {
+    display: flex;
+    align-items: center;
+}
+
+.btn-login {
+    font-size: 13px;
+    padding: 14px 20px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.basket {
+    margin-left: 16px;
+}
+
+/* MAIN */
+
+.main {
+    margin-top: 56px;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    font-size: 16px;
+    color: #626262;
+
+    border: none;
+    border-bottom: 1px solid #75757556;
+    opacity: 0.5;
+}
+
+
+.title {
+    margin-top: 56px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.restaurants-list {
+    width: 100%;
+    max-width: 962px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.restaurants {
+margin-right: 16px;
+margin-top: 16px;
+}
+.restaurants:nth-child(3n){
+    margin-right: 0;
+}
+
+.title-rest {
+    font-weight: 400;
+    font-size: 16;
+    line-height: 24px;
+    padding-top: 16px;
+    color: #1D1D1D;
+}
+
+.menu {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-top: 4px;
+    color: #626262;
+}
+
+.time {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    padding-bottom: 20px;
+    color: #1D1D1D
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    background: #262626;
+    padding-bottom: 10px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.white-logo {
+    padding-top: 56px;
+    padding-bottom: 40px;
+    
+}
+
+.under-line {
+    width: 100%;
+    border-bottom: 1px solid #ffffff73;
+}
+
+.container-links {
+    margin-top: 32px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #ffffff73;
+    display: flex;
+}
+
+
+.select {
+    text-decoration: none;
+    padding: 10px 60px;
+    background: #3B3B3B;
+    color: white;
+    margin-bottom: 33px;
+}
+
+.uber {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color:white;
+    margin-bottom: 17px;
+}
+
+.span-tag {
+    color:#49A144;
+}
+
+.footer-nav2 {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 97px;
+    margin-right: 134px;
+}
+
+.footer-link {
+    margin-bottom: 23px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-nav3 {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.container-store {
+    display: flex;
+    justify-content: center;
+    margin-top: 41px;
+    padding-bottom: 39px;
+    border-bottom: 1px solid #ffffff73;
+}
+
+.phone-store {
+    margin-right: 41px;
+}
+.phone-store:last-child {
+    margin-right: 0;
+}
+
+.container-user-data {
+    width: 90%;
+    margin: 40px 0;
+}
+
+.font {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+.one-data {
+    margin-right: 165px;
+}
+.two-data {
+    margin-right: 140px;
+}
+
+.back-to-top {
+    width: 80px;
+    height: 80px;
+    background: #49A144;
+    position: absolute;
+    bottom: 24px;
+    right: 16px;
+}
+.back-to-top:after {
+    position: relative;
+}
+
+.arrow-top {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+}
+
+/* MEDIA */
+
+@media (max-width: 970px) {
+    .container-w {
+        margin-left: 8px;
+    }
+    .container-logo {
+        margin-left: 8px;
+    }
+    .container-links {
+        margin-left: 8px;
+    }
+    .container-user-data {
+        margin-left: 8px;
+    }
+}
+
+@media (max-width: 963px) {
+    .restaurants {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .restaurants:nth-child(3n){
+        margin-right: auto;
+    }
+
+
+    .photo-rest {
+        width: 368px;
+    }
+}
+
+@media (max-width: 915px) {
+
+    .select {
+        text-decoration: none;
+        padding: 10px 45px;
+       
+    }
+
+    .container-user-data {
+        width: 90%;
+        margin: 40px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .one-data {
+        margin-right: 0;
+    }
+    .two-data {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-links {
+        display: block;
+    }
+
+    .footer-link {
+       display: block;
+    }
+    .footer-nav2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .footer-nav {
+        margin-bottom: 39px;
+    }
+
+    .container-user-data {
+        width: 176px;
+        display: block;
+    }
+
+    .one-data {
+        margin-bottom: 24px;
+    }
+    .photo-rest {
+        width: 308px;
+    }
+}
