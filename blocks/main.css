@@ -1,0 +1,12 @@
+.main {
+    max-width: 956px;
+    margin: 0 auto;
+}
+
+.main__seacrh {
+    margin-top: 56px;
+}
+
+.main__restaurants {
+    margin-top: 56px;
+}

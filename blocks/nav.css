@@ -1,0 +1,25 @@
+.nav {
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+    max-width: 956px;
+    margin: 0 auto;
+}
+
+.nav__link {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: #626262;
+    transition: 0.3s;
+}
+
+.nav__link:hover {
+    font-weight: 500;
+    font-size: 16.5px;
+}

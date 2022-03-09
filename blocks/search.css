@@ -1,0 +1,28 @@
+.search {
+    max-width: 956px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search__form {
+    width: 100%;
+}
+
+.search__input {
+    width: 100%;
+    font-size: 16px;
+    color: #626262;
+    border: none;
+    border-bottom: 1px solid #75757556;
+    opacity: 0.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search__input:focus {
+    outline: 1px solid black;
+    border-radius: 3px;
+    padding: 2px 0;
+    font-family: 'Roboto', sans-serif;
+}

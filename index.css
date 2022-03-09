@@ -4,20 +4,17 @@
 /* HEADER */
 @import url("./blocks/header.css");
 
-/* PUSHKIN_LOGO */
-@import url("./blocks/pushkin-logo.css");
+/* MAIN */
+@import url("./blocks/main.css");
 
-/* NAV */
-@import url("./blocks/nav.css");
+/* SEARCH */
+@import url("./blocks/search.css");
 
-/* MENU */
-@import url("./blocks/menu.css");
+/* RESTAURANTS */
+@import url("./blocks/restaurants.css");
 
-/* PRODUCT */
-@import url("./blocks/product.css");
-
-/* SNACK */
-@import url("./blocks/snack.css");
+/* CARDS */
+@import url("./blocks/cards.css");
 
 /* FOOTER */
 @import url("./blocks/footer.css");
@@ -25,15 +22,11 @@
 /* CONTAINER */
 @import url("./blocks/container.css");
 
+
 *,
 *::before,
 *::after {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-}
-
-.pushkin {
-    max-width: 1124px;
-    margin: 0 auto;
 }
