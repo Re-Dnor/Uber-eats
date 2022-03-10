@@ -1,0 +1,15 @@
+.pushkin-logo__price {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #626262;
+    margin-top: 62px;
+    margin-left: 38px;
+}
+
+@media (max-width: 470px) {
+    .pushkin-logo__price {
+        display: none;
+    }
+}

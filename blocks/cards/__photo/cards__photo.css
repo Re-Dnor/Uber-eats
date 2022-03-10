@@ -1,0 +1,5 @@
+@media (max-width: 350px) {
+    .cards__photo {
+        width: 298px;
+    }
+}

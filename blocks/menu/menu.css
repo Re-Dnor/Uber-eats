@@ -1,0 +1,8 @@
+@media (max-width: 1124px) {
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

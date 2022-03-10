@@ -1,0 +1,11 @@
+.footer__social-icon {
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+@media (max-width: 470px) {
+    .footer__social-icon {
+        margin-bottom: 10px;
+    }
+}

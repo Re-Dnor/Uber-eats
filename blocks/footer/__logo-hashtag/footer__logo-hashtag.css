@@ -1,0 +1,11 @@
+.footer__logo-hashtag {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color:white;
+    margin-bottom: 17px;
+}
+
+.footer__logo-hashtag_green {
+    color:#49A144;
+}

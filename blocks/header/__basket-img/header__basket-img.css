@@ -1,0 +1,8 @@
+.header__basket-img {
+    transition: .5s;
+}
+
+.header__basket-img:hover {
+    opacity: .6;
+    
+}

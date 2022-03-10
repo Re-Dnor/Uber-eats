@@ -1,0 +1,29 @@
+.cards__item {
+    margin: 16px 16px 0 0;
+    height: 366px;
+}
+
+.cards__item:nth-child(3n) {
+    margin: 16px 0 0 0;
+}
+
+@media (max-width: 973px) {
+    .cards__item:nth-child(3n) {
+        margin: 16px 16px 0 0;
+    }
+    .cards__item:nth-child(2n) {
+        margin: 16px 0 0 0;
+    }
+}
+
+@media (max-width: 350px) {
+    .cards__item {
+        margin: 16px 0 0 0;
+    }
+    .cards__item:nth-child(3n) {
+        margin: 16px 0 0 0;
+    }
+    .cards__item:nth-child(2n) {
+        margin: 16px 0 0 0;
+    }
+}

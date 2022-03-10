@@ -1,0 +1,24 @@
+.pushkin-logo__time {
+    width: 100px;
+    background: #262626;
+    border-radius: 16px;
+    height: 32px;
+    bottom: 38px;
+    right: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+}
+
+@media (max-width: 470px) {
+    .pushkin-logo__time {
+        display: none;
+    }
+}

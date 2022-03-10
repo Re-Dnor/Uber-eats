@@ -2,28 +2,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 /* HEADER */
-@import url("./blocks/header.css");
+@import url("./blocks/header/header.css");
+@import url("./blocks/header/__basket-img/header__basket-img.css");
+@import url("./blocks/header/__container/header__container.css");
+@import url("./blocks/header/__login/header__login.css");
+@import url("./blocks/header/__nav/header__nav.css");
+@import url("./blocks/header/__logo/header__logo.css");
+
+/* MAIN-PUSHKIN */
+@import url("./blocks/main-pushkin/main-pushkin.css");
 
 /* PUSHKIN_LOGO */
-@import url("./blocks/pushkin-logo.css");
+@import url("./blocks/pushkin-logo/pushkin-logo.css");
+@import url("./blocks/pushkin-logo/__place/pushkin-logo__place.css");
+@import url("./blocks/pushkin-logo/__price/pushkin-logo__price.css");
+@import url("./blocks/pushkin-logo/__time/pushkin-logo__time.css");
+@import url("./blocks/pushkin-logo/__title/pushkin-logo__title.css");
 
 /* NAV */
-@import url("./blocks/nav.css");
+@import url("./blocks/nav/nav.css");
+@import url("./blocks/nav/__link/nav__link.css");
 
 /* MENU */
-@import url("./blocks/menu.css");
+@import url("./blocks/menu/__product/menu__product.css");
+@import url("./blocks/menu/__title/menu__title.css");
+@import url("./blocks/menu/menu.css");
 
 /* PRODUCT */
-@import url("./blocks/product.css");
+@import url("./blocks/product/product.css");
 
 /* SNACK */
-@import url("./blocks/snack.css");
+@import url("./blocks/snack/snack.css");
+@import url("./blocks/snack/__price/snack__price.css");
+@import url("./blocks/snack/__title/snack__title.css");
 
 /* FOOTER */
-@import url("./blocks/footer.css");
+@import url("./blocks/footer/footer.css");
+@import url("./blocks/footer/__arrow/footer__arrow.css");
+@import url("./blocks/footer/__description/footer__description.css");
+@import url("./blocks/footer/__faq/footer__faq.css");
+@import url("./blocks/footer/__link/footer__link.css");
+@import url("./blocks/footer/__links/footer__links.css");
+@import url("./blocks/footer/__logo-hashtag/footer__logo-hashtag.css");
+@import url("./blocks/footer/__logo/footer__logo.css");
+@import url("./blocks/footer/__mobile-icon/footer__mobile-icon.css");
+@import url("./blocks/footer/__mobile-store/footer__mobile-store.css");
+@import url("./blocks/footer/__select/footer__select.css");
+@import url("./blocks/footer/__social-icon/footer__social-icon.css");
+@import url("./blocks/footer/__user-data/footer__user-data.css");
 
 /* CONTAINER */
-@import url("./blocks/container.css");
+@import url("./blocks/container/container.css");
+
 
 *,
 *::before,
@@ -31,9 +61,4 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-}
-
-.pushkin {
-    max-width: 1124px;
-    margin: 0 auto;
 }

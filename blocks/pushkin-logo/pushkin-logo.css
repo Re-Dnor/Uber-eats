@@ -1,0 +1,7 @@
+.pushkin-logo {
+    background-image: url("../../img/pushk.png");
+    background-size: cover;
+    height: 364px;
+    position: relative;
+    font-family: Roboto;
+}

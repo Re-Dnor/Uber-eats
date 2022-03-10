@@ -1,0 +1,9 @@
+.footer__mobile-icon {
+    margin-right: 40px;
+}
+
+@media (max-width: 470px) {
+    .footer__mobile-icon {
+        margin-right: 0; 
+    }
+}

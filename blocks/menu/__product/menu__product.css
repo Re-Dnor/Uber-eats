@@ -1,0 +1,9 @@
+.menu__product {
+    margin-bottom: 51px;
+}
+
+@media (max-width: 1124px) {
+    .menu__product {
+        width: 95%;
+    }
+}

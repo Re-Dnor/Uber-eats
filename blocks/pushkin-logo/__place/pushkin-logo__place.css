@@ -1,0 +1,32 @@
+.pushkin-logo__place {
+    width: 389px;
+    height: 204px;
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    left: 81px;
+}
+
+@media (max-width: 956px) {
+    .pushkin-logo__place {
+        top: 200px;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+    }
+}
+
+@media (max-width: 470px) {
+    .pushkin-logo__place {
+        top: 270px;
+        width: 250px;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .pushkin-logo__place {
+        left: 30px;
+    }
+}
