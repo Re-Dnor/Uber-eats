@@ -12,3 +12,6 @@
 <code>npm install</code> <br>
 Для сборки проекта: <code> npm run build </code> <br>
 Для открытия проекта в браузере на сервере: <code> npm start </code> <br>
+
+## GitHub Pages ##
+[Uber Eats](https://re-dnor.github.io/Uber-eats/index.html)
