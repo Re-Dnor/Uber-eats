@@ -1,3 +1,11 @@
+.cards__photo {
+    transition: .5s linear;
+}
+
+.cards__photo:hover {
+    opacity: .75;
+}
+
 @media (max-width: 350px) {
     .cards__photo {
         width: 298px;

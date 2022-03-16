@@ -5,4 +5,9 @@
     font-weight: 400;
     font-size: 13px;
     line-height: 15px;
+    transition: .3s;
+}
+
+.footer__link:hover {
+    color: rgb(165, 165, 165);
 }
