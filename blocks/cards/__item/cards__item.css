@@ -18,12 +18,12 @@
 
 @media (max-width: 350px) {
     .cards__item {
-        margin: 16px 0 0 0;
+        margin: 16px 10px 0 10px;
     }
     .cards__item:nth-child(3n) {
-        margin: 16px 0 0 0;
+        margin: 16px 10px 0 10px;
     }
     .cards__item:nth-child(2n) {
-        margin: 16px 0 0 0;
+        margin: 16px 10px 0 10px;
     }
 }
