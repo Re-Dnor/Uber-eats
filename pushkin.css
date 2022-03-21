@@ -14,7 +14,7 @@
 
 /* PUSHKIN_LOGO */
 @import url("./blocks/pushkin-logo/pushkin-logo.css");
-@import url("./blocks/pushkin-logo/__place/pushkin-logo__place.css");
+@import url("./blocks/pushkin-logo/__banner/pushkin-logo__banner.css");
 @import url("./blocks/pushkin-logo/__price/pushkin-logo__price.css");
 @import url("./blocks/pushkin-logo/__time/pushkin-logo__time.css");
 @import url("./blocks/pushkin-logo/__title/pushkin-logo__title.css");

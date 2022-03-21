@@ -19,16 +19,3 @@
 }
 }
 
-@media (max-width: 575px) {
-    .footer__arrow {
-        bottom: 175px;
-        right: 15px;
-}
-}
-
-@media (max-width: 470px) {
-    .footer__arrow {
-        bottom: 300px;
-        right: 15px;
-}
-}
